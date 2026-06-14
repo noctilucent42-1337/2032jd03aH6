@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 1</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #000;
+        color: #9aff6b;
+        font-family: "Courier New", monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 800px;
+        padding: 40px;
+        line-height: 1.8;
+        text-shadow: 0 0 5px #9aff6b;
+    }
+
+    h1 {
+        text-align: center;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+        font-weight: normal;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .glitch {
+        animation: flicker 3s infinite;
+    }
+
+    @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        48% { opacity: 1; }
+        49% { opacity: 0.4; }
+        50% { opacity: 1; }
+        51% { opacity: 0.6; }
+        52% { opacity: 1; }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="glitch">CHAPTER 1</h1>
+        <p>
+            This is where it all begins. The start of the cipher game.
+        </p>
+        <p>
+            This chapter should be easy to solve. Though, I have no idea whether an iPad supports everything you'll need.
+        </p>
+        <p>
+            Just because it's easy doesn't mean I'll leave the answer somewhere obvious.
+        </p>
+        <p class="glitch">
+            Look behind you.<br>
+            There's a ghost.
+        </p>
+//Hello! I'm a ghost(LOL) https://drive.google.com/file/d/1qr89XN_xdUbu0YlvzVNOq60uZVhaHDsh/view Have a nice day!!
+    </div>
+</body>
+</html>
